@@ -8,9 +8,9 @@ using namespace std;
 // Image PPM
 
 int main() {
-    //Cirar imagens
+    //Criar imagens
     ofstream image;
-    //Change image path:
+    //Trocar o caminho da foto em ppm:
     image.open("C:\\Jex\\apollo.ppm");
 
     if (image.is_open()) {
