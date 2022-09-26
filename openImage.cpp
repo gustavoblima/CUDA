@@ -8,9 +8,9 @@ using namespace std;
 // Image PPM
 
 int main() {
-    //Cirar imagens
+    //Criar imagens
     ofstream image;
-
+    //Nesta opcao troca o caminho da imagem:
     image.open("PPM_Images.ppm");
 
     if (image.is_open()) {
