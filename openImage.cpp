@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-    //Criar imagens
+    //Criar imagens (Teste do pull)
     ofstream image;
     //Nesta opcao troca o caminho da imagem:
     image.open("PPM_Images.ppm");
